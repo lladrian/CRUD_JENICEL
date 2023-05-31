@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CRUD Application</string>
+    <string name="logout_button_label">logout</string>
+    <string name="logout_button">logout</string>
+    <string name="welcome_activity_label">Welcome</string>
+    <string name="logout_message">You have been logged out</string>
+    <string name="welcome_message">Welcome \n %1$s</string>
+
+</resources>

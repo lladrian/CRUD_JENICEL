@@ -1,0 +1,126 @@
+<!-- destination_activity_layout.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ve">
+
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="30dp"
+        android:text="UPDATE DATA"
+        android:textSize="18sp"
+        android:backgroundTint="#116D6E"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/white" />
+
+
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/update"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:text="DELETE DATA"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:backgroundTint="#CD1818"
+        android:textColor="@color/white" />
+
+
+    <EditText
+        android:id="@+id/idTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="48dp"
+        android:textColor="@color/white"
+        android:hint="ID"
+        android:textSize="18sp"
+        android:textColorHint="@color/black" />
+
+
+    <EditText
+        android:id="@+id/fullnameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idTextView"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:hint="Full Name"
+        android:textSize="18sp"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/idNumberTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fullnameTextView"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="16dp"
+        android:hint="Student ID - Ex. 202032868"
+        android:textSize="18sp"
+        android:inputType="number"
+        android:textColor="@color/white"
+        android:textColorHint="@color/black" />
+
+
+    <EditText
+        android:id="@+id/emailTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idNumberTextView"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="16dp"
+        android:hint="Email Address"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/phoneNumberTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailTextView"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="16dp"
+        android:hint="Phone Number"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:inputType="phone|number"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/passwordTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phoneNumberTextView"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="16dp"
+        android:hint="Password"
+        android:textSize="18sp"
+        android:inputType="textVisiblePassword"
+        android:textColor="@color/white"
+        android:textColorHint="@color/black"
+        />
+
+</LinearLayout>
