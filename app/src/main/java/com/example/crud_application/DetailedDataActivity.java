@@ -160,13 +160,13 @@ public class DetailedDataActivity extends AppCompatActivity {
         final String phoneNumber= phoneNumberTextView.getText().toString().trim();
 
         //String url = "https://192.168.254.164/PHP_FILE/update_user_php.php";
-        String url = "https://deeyan-shoppe-net.000webhostapp.com/PHP_FILE/update_user_php.php";
+        String url = "https://kittle-pistols.000webhostapp.com/PHP_FILE/update_user_php.php";
         StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
                         Toast.makeText(DetailedDataActivity.this, response, Toast.LENGTH_SHORT).show();
-                        if (response.trim().equals("User updated successfully!")) {
+                        if (response.trim().equals("Student data updated successfully!")) {
                             new Handler().postDelayed(new Runnable() {
                                 @Override
                                 public void run() {
@@ -205,13 +205,13 @@ public class DetailedDataActivity extends AppCompatActivity {
         final String id = idTextView.getText().toString().trim();
 
         //String url = "https://192.168.254.164/PHP_FILE/delete_user_php.php";
-          String url = "https://deeyan-shoppe-net.000webhostapp.com/PHP_FILE/delete_user_php.php";
+          String url = "https://kittle-pistols.000webhostapp.com/PHP_FILE/delete_user_php.php";
         StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
                         Toast.makeText(DetailedDataActivity.this, response, Toast.LENGTH_SHORT).show();
-                        if (response.trim().equals("User deleted successfully!")) {
+                        if (response.trim().equals("Student data deleted successfully!")) {
                             new Handler().postDelayed(new Runnable() {
                                 @Override
                                 public void run() {

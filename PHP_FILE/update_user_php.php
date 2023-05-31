@@ -4,9 +4,10 @@
 
 // Create a connection to the MySQL database
 $servername = "localhost";
-$username = "id17963706_root";
-$password = "@LuckyMe11";
-$dbname = "id17963706_lab_info";
+$username = "id20842745_username";
+$password = "@EvsuMail11";
+$dbname = "id20842745_root";
+
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 // Get the POST data

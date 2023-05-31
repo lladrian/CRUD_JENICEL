@@ -1,15 +1,15 @@
 <?php
 
 // Database configuration
-$host = "localhost"; // Replace with your database host
-$dbName = "id17963706_lab_info"; // Replace with your database name
-$username = "id17963706_root"; // Replace with your database username
-$password = "@LuckyMe11"; // Replace with your database password
+$servername = "localhost";
+$username = "id20842745_username";
+$password = "@EvsuMail11";
+$dbname = "id20842745_root";
 
 
 // Create a PDO instance
 try {
-    $db = new PDO("mysql:host=$host;dbname=$dbName;charset=utf8", $username, $password);
+    $db = new PDO("mysql:host=$servername;dbname=$dbname;charset=utf8", $username, $password);
     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch (PDOException $e) {
     die("Connection failed: " . $e->getMessage());

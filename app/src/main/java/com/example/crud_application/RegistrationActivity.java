@@ -65,7 +65,7 @@ public class RegistrationActivity extends AppCompatActivity {
         final String phoneNumber = phoneNumberTextView.getText().toString().trim();
 
        // String url = "https://192.168.254.164/PHP_FILE/register_php.php";
-          String url = "https://deeyan-shoppe-net.000webhostapp.com/PHP_FILE/register_php.php";
+          String url = "https://kittle-pistols.000webhostapp.com/PHP_FILE/register_php.php";
         StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
                 new Response.Listener<String>() {
                     @Override

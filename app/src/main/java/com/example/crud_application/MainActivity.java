@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
     //private Button buttonSave;
 
     //private static final String BASE_URL = "http://192.168.254.164/PHP_FILE/fetch_all_php.php";
-    private static final String BASE_URL = "https://deeyan-shoppe-net.000webhostapp.com/PHP_FILE/fetch_all_php.php";
+    private static final String BASE_URL = "https://kittle-pistols.000webhostapp.com/PHP_FILE/fetch_all_php.php";
 
     private ListView listView;
     private ArrayAdapter<String> adapter;
@@ -157,7 +157,7 @@ public class MainActivity extends AppCompatActivity {
 
             // Create an HTTP request to the PHP script
             OkHttpClient client = new OkHttpClient();
-           String url = "https://deeyan-shoppe-net.000webhostapp.com/PHP_FILE/display_data.php";
+           String url = "https://kittle-pistols.000webhostapp.com/PHP_FILE/display_data.php";
             //String url = "https://192.168.254.164/PHP_FILE/display_data.php";
 
             Request request = new Request.Builder()

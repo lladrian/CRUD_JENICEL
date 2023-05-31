@@ -73,7 +73,7 @@ public class LoginActivity extends AppCompatActivity {
         final String password = passwordEditText.getText().toString().trim();
 
         //String url = "https://192.168.254.164/PHP_FILE/login_php.php";
-          String url = "https://deeyan-shoppe-net.000webhostapp.com/PHP_FILE/login_php.php";
+          String url = "https://kittle-pistols.000webhostapp.com/PHP_FILE/login_php.php";
         StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
                 new Response.Listener<String>() {
                     @Override

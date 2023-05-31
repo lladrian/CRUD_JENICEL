@@ -104,7 +104,7 @@ public class InsertDataActivity extends AppCompatActivity {
         final String idNumber = idNumberTextView.getText().toString().trim();
         final String phoneNumber = phoneNumberTextView.getText().toString().trim();
 
-          String url = "https://deeyan-shoppe-net.000webhostapp.com/PHP_FILE/register_php.php";
+          String url = "https://kittle-pistols.000webhostapp.com/PHP_FILE/register_php.php";
         //String url = "http://192.168.254.164/PHP_FILE/register_php.php";
         StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
                 new Response.Listener<String>() {
