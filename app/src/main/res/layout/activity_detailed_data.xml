@@ -118,7 +118,6 @@
         android:layout_marginTop="16dp"
         android:hint="Password"
         android:textSize="18sp"
-        android:inputType="textVisiblePassword"
         android:textColor="@color/white"
         android:textColorHint="@color/black"
         />
